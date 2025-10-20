@@ -1,0 +1,64 @@
+body {
+  background-color: #ddd;
+  padding-top: 50%;
+  font-family: Times New Roman;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card {
+  padding: 5px;
+}
+
+.cad-container {
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.cad {
+  padding: 10px 40px;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  border: solid 1px #3A7AFE;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+button {
+  background: linear-gradient(90deg, #7A5FFF, #3A7AFE);
+  width: 99%;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+label {
+  font-size: 13px;
+}
+
+#span {
+  text-align: center;
+  margin-top: 3px;
+  font-size: 14px;
+}
