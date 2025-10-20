@@ -8,7 +8,7 @@ const PORT = 3000;
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static("public")); // serve your HTML, CSS, JS files
+app.use(express.static("__dirname")); // serve your HTML, CSS, JS files
 
 // ====================== IN-MEMORY STORAGE ======================
 
@@ -17,7 +17,6 @@ app.use(express.static("public")); // serve your HTML, CSS, JS files
 let userScores = {};
 
 // Hardcoded quiz code for Step 2
-const QUIZ_CODE = "12345";
 
 // ====================== ROUTES ======================
 
